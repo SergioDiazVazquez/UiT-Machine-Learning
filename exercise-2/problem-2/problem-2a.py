@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 # 1. Load the data
-df = pd.read_csv("exercise-2/global-temperatures.csv", sep=r"\s+")
+df = pd.read_csv("global-temperatures.csv", sep=r"\s+")
 
 X = df[["Year"]]
 y = df["Temperature"]
